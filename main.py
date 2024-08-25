@@ -37,4 +37,4 @@ if button:
     st.session_state["memory"] = ConversationBufferMemory(return_messages=True)
     st.session_state["messages"] = [{"role": "ai",
                                      "content": "你好，我现在是fbc的克隆人，有什么可以帮你的吗？"}]
-    st.experimental_rerun()
+    st.rerun()
